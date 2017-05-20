@@ -11,11 +11,28 @@ To use this plugin:
 To active:
 
 #HTML
-<form> 
-  <select id="year" name="year"> 
-    <option>select year</option>
-  </select>
-</form>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<form action="" method="post"> 
+		<select name="year" id="year"> 
+			<option value="" id="myoptions">Select year</option>
+		</select>
+		
+		<input type="submit" />
+	</form>
+  
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="jquery-date.js"></script>
+	
+	
+</body>
+</html>
 
 
 #jquery
